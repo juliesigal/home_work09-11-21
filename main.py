@@ -27,8 +27,22 @@ my_book.author = 'Jonh Smith'
 my_book.genre = 'comedy'
 my_book.year_of_publish = 1993
 my_book.no_of_pages = 1570
+  
+  
 
+***** targil 3:
+  
+class Book:
+    pass
+  
+book_harry = create_book('J.K.rowling', 'Harry Potter and the Sorcerer\'s Stone' , 1999, 'fantazy', 1003)
+                                                 
+book_catch22 = create_book('Joseph Heller','catch 22', 1970, 'comedy', 800)
+                          
+book_winnie_z_pooh = create_book('A.A.Millen','Winnie the Pooh', 1921, 'children', 50)
 
+_lib = [book_harry, book_catch22, book_winnie_z_pooh]
+_lib_dict = {'Harry Potter and the Sorcerer\'s Stone' : book_harry,'catch 22' : book_catch22  ,'Winnie the Pooh' : book_winnie_z_pooh}  
 
 ***** targil 4:
   
